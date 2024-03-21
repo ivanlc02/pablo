@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(23, 126, 170);
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Box__Button{
+margin-top: 20px; /*espacio de arriva */
+text-align: center;
+
+
+}
+.edit_button{
+    margin-top: 20px; /*espacio de arriva */
+    text-align: center;
+    
+    
+    }
+
+
+
+.Button{
+ text-decoration: none; /*para quitar el subrrallado */
+color: rgb(0, 0, 0); /*Color de letras   */
+background-color: green; /*Color de fondo*/
+padding: 10px;
+border-radius: 5px;
+
+}
+
+.Button:hover{
+   background-color: rgb(5, 50, 5); /*Color de fondo*/
+   }
+
+
+   .Form__Buttons{
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+
+   .Form__Buttons1{
+    background-color: aqua;
+   }
+
+   .Form__Buttons1:hover{
+    background-color: rgb(17, 107, 107);
+   }
+
+   .Form__Buttons2{
+    background-color: rgb(22, 219, 237);
+   }
+h1{
+    background-color: blue;
+    /* pone el tamaño de letrwa */
+    font-size: 40px;
+}
+/* .conteiner  p{} selecciona todos los p */
